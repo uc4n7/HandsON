@@ -1,0 +1,90 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 8px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+.field {
+    display: grid;
+    grid-template-columns: 140px 168px;
+    margin: 4px 5px;
+    align-items: center;
+    font-size: 18px;
+}
+
+input {
+    height: 25px;
+    width: 168px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.actions {
+    margin: 18px 0 24px 145px;
+}
+
+button, select {
+    cursor: pointer;
+    font-size: 14px;
+    padding: 3px 8px;
+}
+
+fieldset {
+    border: 2px solid #aaa;
+    padding: 10px 12px 12px;
+}
+
+legend {
+    font-size: 18px;
+}
+
+table {
+    border-collapse: collapse;
+    margin: auto;
+    width: 520px;
+    font-size: 18px;
+}
+
+th, td {
+    border-right: 1px solid #555;
+    border-bottom: 1px solid #555;
+    padding: 10px 8px;
+    text-align: left;
+}
+
+th {
+    border-top: 2px solid #888;
+    text-align: center;
+}
+
+th:last-child, td:last-child {
+    border-right: none;
+}
+
+td.age {
+    text-align: center;
+}
+
+td.action {
+    text-align: center;
+    white-space: nowrap;
+}
+
+.bottom-controls {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 6px;
+    margin: 10px 2px;
+}
+
+#message {
+    color: green;
+    margin: 8px 5px;
+}

@@ -1,0 +1,38 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 25px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+button {
+    cursor: pointer;
+}
+
+table {
+    width: 75%;
+    border-collapse: collapse;
+    font-size: 13px;
+}
+
+th, td {
+    border: 1px solid gray;
+    padding: 6px;
+}
+
+th {
+    text-align: center;
+}
+
+.completed {
+    color: green;
+    font-weight: bold;
+}
+
+.not-completed {
+    color: red;
+    font-weight: bold;
+}
